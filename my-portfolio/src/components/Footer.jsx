@@ -10,21 +10,21 @@ export const Footer = () => {
         <a
           href="https://www.linkedin.com/in/dominic-reymar-gunio-620274374/"
           target="_blank"
-          className="dark:text-white hover:text-primary transition-colors"
+          className="text-foreground hover:text-primary transition-colors"
         >
           <Linkedin className="transition-transform duration-300 hover:scale-125 hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.7)]" />
         </a>
         <a
           href="https://www.facebook.com/dominicreymar.29"
           target="_blank"
-          className="dark:text-white hover:text-primary transition-colors"
+          className="text-foreground hover:text-primary transition-colors"
         >
           <Facebook className="transition-transform duration-300 hover:scale-125 hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.7)]" />
         </a>
         <a
           href="https://www.instagram.com/dominicreymar/"
           target="_blank"
-          className="dark:text-white hover:text-primary transition-colors"
+          className="text-foreground hover:text-primary transition-colors"
         >
           <Instagram className="transition-transform duration-300 hover:scale-125 hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.7)]" />
         </a>
