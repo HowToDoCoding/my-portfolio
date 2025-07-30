@@ -11,6 +11,7 @@ const projects = [
     tags: ["React", "TailwindCSS", "JavaScript", "HTML", "Vite"],
     demoUrl: "#",
     githubUrl: "#",
+    date: "July 30, 2025",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const projects = [
     demoUrl: "https://thesismanagementsystem-39688.web.app/#/login",
     githubUrl:
       "https://github.com/CarlUlarte/InnoGate-Core-Ui?tab=readme-ov-file",
+    date: "June - December, 2024",
   },
   {
     id: 3,
@@ -32,6 +34,7 @@ const projects = [
     tags: ["PHP Laravel", "Bootstrap", "JavaScript", "PostgreSQL", "Vue"],
     demoUrl: "#",
     githubUrl: "#",
+    date: "June - July, 2024",
   },
 ];
 
@@ -52,14 +55,17 @@ export const ProjectsSection = () => {
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover relative"
             >
-              <div className="h-48 overflow-hidden">
+              <div className="h-48 overflow-hidden relative">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
+                <span className="absolute bottom-2 right-3 bg-card/80 px-3 py-1 rounded text-xs text-muted-foreground shadow">
+                  {project.date}
+                </span>
               </div>
 
               <div className="p-6">
@@ -71,7 +77,7 @@ export const ProjectsSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
+                <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
