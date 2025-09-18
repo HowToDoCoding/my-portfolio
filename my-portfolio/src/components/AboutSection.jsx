@@ -119,14 +119,14 @@ export const AboutSection = () => {
               <div className="flex-1 overflow-auto p-4">
                 {previewType === "pdf" ? (
                   <iframe
-                    src="/CV - Gunio.pdf"
+                    src="/CV - Gunio, Dominic.pdf"
                     className="w-full h-[60vh] border rounded"
                     title="CV PDF Preview"
                   />
                 ) : (
                   <div className="flex justify-center">
                     <img
-                      src="/CV - Gunio-1.png"
+                      src="/CV - Gunio_page--0001.jpg"
                       alt="CV Preview"
                       className="max-w-full h-auto border rounded"
                     />
