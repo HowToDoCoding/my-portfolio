@@ -135,16 +135,16 @@ export const AboutSection = () => {
               </div>
               <div className="flex justify-end gap-4 p-4 border-t border-border bg-neutral-100 dark:bg-neutral-900 rounded-b-xl">
                 <a
-                  href="/CV - Gunio-1.png"
-                  download="CV - Gunio-1.png"
+                  href="/CV - Gunio_page--0001.jpg"
+                  download="CV - Gunio_page--0001.jpg"
                   className="cosmic-button flex items-center gap-2"
                 >
                   <Download className="h-4 w-4" />
                   Download PNG
                 </a>
                 <a
-                  href="/CV - Gunio.pdf"
-                  download="CV - Gunio.pdf"
+                  href="/CV - Gunio, Dominic.pdf"
+                  download="CV - Gunio, Dominic.pdf"
                   className="cosmic-button flex items-center gap-2"
                 >
                   <Download className="h-4 w-4" />
