@@ -135,8 +135,8 @@ export const AboutSection = () => {
               </div>
               <div className="flex justify-end gap-4 p-4 border-t border-border bg-neutral-100 dark:bg-neutral-900 rounded-b-xl">
                 <a
-                  href="/CV - Gunio_page--0001.jpg"
-                  download="CV - Gunio_page--0001.jpg"
+                  href="/CV-Gunio.zip"
+                  download="CV-Gunio.zip"
                   className="cosmic-button flex items-center gap-2"
                 >
                   <Download className="h-4 w-4" />
